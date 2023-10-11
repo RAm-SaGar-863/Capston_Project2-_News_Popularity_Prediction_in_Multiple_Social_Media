@@ -1,4 +1,4 @@
-# **News Popularity_Prediction in Multiple Social Media**
+# **News Popularity Prediction in Multiple Social Media Platforms**
 Machine Learning Resgression capston Project
 
 ## Problem Statement
