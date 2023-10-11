@@ -1,10 +1,10 @@
 # Capston_Project2-_News_Popularity_Prediction_in_Multiple_Social_Media
 Machine Learning Resgression Project
 
-# **Problem Statement**
+## Problem Statement
 The project's goal is to analyze a dataset of 100,000 news articles and their social feedback on platforms like Facebook, Google+, and LinkedIn over an eight-month period from November 2015 to July 2016. The objective is to perform Exploratory Data Analysis (EDA) and build machine learning models to predict a news article's popularity on these platforms 48 hours after publication. The dataset includes articles on four topics: Economy, Microsoft, Obama, and Palestine. The project aims to provide insights and predictions that can help content creators and news organizations optimize their strategies.
 
-# **Project Summary **
+## Project Summary 
 
 This comprehensive data analysis and machine learning project embarked on an exploration of a substantial dataset encompassing a span of eight months from November 2015 to July 2016. Within this dataset, an extensive collection of news items was meticulously examined, with a focus on four distinct topics: Economy, Microsoft, Obama, and Palestine. These news items were distributed across three prominent social media platforms, namely Facebook, GooglePlus, and LinkedIn.we also have 12 social feedback dataset which contains the popularity level of news items in incremental time slices of 20 min after publication.
 
