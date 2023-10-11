@@ -6,7 +6,7 @@ Machine Learning Resgression Project
 The project's goal is to analyze a dataset of 100,000 news articles and their social feedback on platforms like Facebook, Google+, and LinkedIn over an eight-month period from November 2015 to July 2016. The objective is to perform Exploratory Data Analysis (EDA) and build machine learning models to predict a news article's popularity on these platforms 48 hours after publication. The dataset includes articles on four topics: Economy, Microsoft, Obama, and Palestine. The project aims to provide insights and predictions that can help content creators and news organizations optimize their strategies.
 
 ## Project Summary 
-
+---
 This comprehensive data analysis and machine learning project embarked on an exploration of a substantial dataset encompassing a span of eight months from November 2015 to July 2016. Within this dataset, an extensive collection of news items was meticulously examined, with a focus on four distinct topics: Economy, Microsoft, Obama, and Palestine. These news items were distributed across three prominent social media platforms, namely Facebook, GooglePlus, and LinkedIn.we also have 12 social feedback dataset which contains the popularity level of news items in incremental time slices of 20 min after publication.
 
 * As the first step of our experiment, we performed Data Cleaning by removing trash and duplicate data, applied null value treatment and removed outliers in the data set using the 90th percentile quantile method. We further applied the Standardization technique for feature scaling.
@@ -36,6 +36,7 @@ This comprehensive data analysis and machine learning project embarked on an exp
 In summary, this project has provided a comprehensive and nuanced understanding of the factors shaping the popularity of news items on diverse social media platforms. The insights and actionable recommendations derived from this analysis offer content creators, marketers, and social media strategists valuable tools for optimizing their strategies. By aligning their efforts with platform-specific preferences, leveraging predictive models, and staying attuned to the ever-evolving landscape of social media, organizations can enhance their content's impact and reach, thereby achieving their primary objective of maximizing engagement and audience reach in the digital realm.
 
 ## Input Files:
+---
 Facebook_Economy.csv\
 Facebook_Microsoft.csv\
 Facebook_Obama.csv\
@@ -51,8 +52,7 @@ LinkedIn_Palestine.csv\
 News_Final.csv
 
 ## Variables Description:
-
-
+---
 
 * #### Variables  of News Dataset
 
@@ -78,3 +78,4 @@ News_Final.csv
   * **TS144 (numeric):** Final level of popularity after 2 days upon publication
 
 ## The project follows a step-by-step process, as outlined below:---
+---
