@@ -36,16 +36,16 @@ In summary, this project has provided a comprehensive and nuanced understanding 
 
 ## Input Files:
 Facebook_Economy.csv\
-Facebook_Microsoft.csv
-Facebook_Obama.csv
-Facebook_Palestine.csv
-GooglePlus_Economy.csv
-GooglePlus_Microsoft.csv
-GooglePlus_Obama.csv
-GooglePlus_Palestine.csv
-LinkedIn_Economy.csv
-LinkedIn_Microsoft.csv
-LinkedIn_Obama.csv
-LinkedIn_Palestine.csv
+Facebook_Microsoft.csv\
+Facebook_Obama.csv\
+Facebook_Palestine.csv\
+GooglePlus_Economy.csv\
+GooglePlus_Microsoft.csv\
+GooglePlus_Obama.csv\
+GooglePlus_Palestine.csv\
+LinkedIn_Economy.csv\
+LinkedIn_Microsoft.csv\
+LinkedIn_Obama.csv\
+LinkedIn_Palestine.csv\
 News_Final.csv
 
