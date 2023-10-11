@@ -109,3 +109,31 @@ Here are the key insights from EDA:
 * **Publication Trends**:
    - The dataset exhibited recurring patterns in news publication, with approximately seven-day cycles of higher and lower publication rates.
    - Specific hours during the day impacted the visibility of news items, suggesting the importance of timing for social media engagement.
+ 
+## 4. Text Pre-processing
+---
+For handling the textual data in the news title and headline we used TF-IDF Vectorizer and CountVectorizer.
+
+## 5. Encoding categorical values
+---
+We used one-hot encoding for converting the categorical columns such as source types, topics, sentiment category into numerical values so that our model can understand and extract valuable information from these columns.
+
+## 6. Feature Selection
+---
+For feature selection, we used algorithms like ExtraTreeRegressor, which provides ordering features on the basis of their gini importance and helps in obtaining features which are more important compared to others for our model. Next we obtained correlation between the independent and dependent features to understand their relation.
+
+## 7. Model Fitting
+---
+For modeling we tried the various regression algorithms like:
+* Decision Tree
+* Random Forest
+* LightGBM
+* Gradient Boosting
+* KNN
+* XGBoost
+
+## 8. Hyper parameter Tuning
+---
+Tuning of hyperparameters is necessary for modeling to obtain better accuracy and to avoid overfitting. In our project, we used HalvingRandomizedSearchCV because 
+* The Project deals with the large data
+* High computation Time
