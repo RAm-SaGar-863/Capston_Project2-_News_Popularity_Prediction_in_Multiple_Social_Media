@@ -90,25 +90,7 @@ We observed that the values of our dependent variables were quite large compared
 
 ## 3. EDA
 ---
-Here are the key insights from EDA:
-
-* **Sentiment Analysis**:
-   - Negative sentiment dominated the news item titles, indicating a higher prevalence of negative-toned content.
-   - Positive sentiment was the second most common, while neutral sentiment was the least prevalent.
-   - Sentiment trends varied across different social media platforms, with Facebook users showing a preference for neutral sentiment content, LinkedIn users engaging more with negative sentiment, and GooglePlus users responding well to both positive and neutral sentiment.
-
-* **Source Type Analysis**:
-   - Source Type "A" was the primary contributor of news content, followed by Source Type "D." Source Type "B" published the fewest news items.
-   - Popularity of news items varied by source type and social media platform, with some sources consistently producing engaging content.
-
-* **Topic Popularity**:
-   - Topics like "Economy" and "Microsoft" were more popular on Facebook and LinkedIn, indicating a preference for professional and tech-related discussions.
-   - "Obama" and "Palestine" generated more interest on Facebook and LinkedIn, respectively.
-   - Popularity trends for topics generally showed an increasing pattern across all three platforms over a two-day period.
-
-* **Publication Trends**:
-   - The dataset exhibited recurring patterns in news publication, with approximately seven-day cycles of higher and lower publication rates.
-   - Specific hours during the day impacted the visibility of news items, suggesting the importance of timing for social media engagement.
+In Exploratory Data Analysis, we categorized the sentimentTitle and sentimentHeadline into positive, neutral and negative sentiment categorical values. Then we observed that the number of sources publishing news items was quite large so to obtain a proper analysis we categorized the sources into 4 types, by grouping them on the number of news items published by each source. Further, we compared the popularity level of news items on the three social media platforms, observed the trend of popularity level based on sources and topics. We also observed the change in popularity level within the two days of publishing by using the time-span dataset.
  
 ## 4. Text Pre-processing
 ---
