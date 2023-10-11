@@ -75,3 +75,5 @@ News_Final.csv
   * **TS2 (numeric):** Level of popularity in time slice 2 (20-40 minutes upon publication)
   * **TS... (numeric):** Level of popularity in time slice ...
   * **TS144 (numeric):** Final level of popularity after 2 days upon publication
+
+## The project follows a step-by-step process, as outlined below:---
