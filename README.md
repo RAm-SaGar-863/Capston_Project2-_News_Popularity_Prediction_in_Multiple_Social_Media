@@ -1,5 +1,5 @@
-# Capston_Project2-_News_Popularity_Prediction_in_Multiple_Social_Media
-Machine Learning Resgression Project
+# **News Popularity_Prediction in Multiple Social Media**
+Machine Learning Resgression capston Project
 
 ## Problem Statement
 ---
