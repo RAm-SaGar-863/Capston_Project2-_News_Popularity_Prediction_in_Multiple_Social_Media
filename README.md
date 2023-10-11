@@ -137,3 +137,37 @@ For modeling we tried the various regression algorithms like:
 Tuning of hyperparameters is necessary for modeling to obtain better accuracy and to avoid overfitting. In our project, we used HalvingRandomizedSearchCV because 
 * The Project deals with the large data
 * High computation Time
+
+## 9. Metrics Evaluation
+---
+We have used some of the metrics valuation techniques like MSE, RMSE, R2 Score, Adjusted R2, to obtain the accuracy and error rate of our models before and after hyperparameter tuning.
+
+## 10. Feature Importance - SHAP Implementation
+---
+We implemented the SHAP value plot to obtain the importance of independent features in the model prediction to show the positive or negative relationship for each variable with the target.
+
+## Conclusion
+---
+
+* **Sentiment Analysis**:
+   - Negative sentiment dominated the news item titles, indicating a higher prevalence of negative-toned content.
+   - Positive sentiment was the second most common, while neutral sentiment was the least prevalent.
+   - Sentiment trends varied across different social media platforms, with Facebook users showing a preference for neutral sentiment content, LinkedIn users engaging more with negative sentiment, and GooglePlus users responding well to both positive and neutral sentiment.
+
+* **Source Type Analysis**:
+   - Source Type "A" was the primary contributor of news content, followed by Source Type "D." Source Type "B" published the fewest news items.
+   - Popularity of news items varied by source type and social media platform, with some sources consistently producing engaging content.
+
+* **Topic Popularity**:
+   - Topics like "Economy" and "Microsoft" were more popular on Facebook and LinkedIn, indicating a preference for professional and tech-related discussions.
+   - "Obama" and "Palestine" generated more interest on Facebook and LinkedIn, respectively.
+   - Popularity trends for topics generally showed an increasing pattern across all three platforms over a two-day period.
+
+* **Publication Trends**:
+   - The dataset exhibited recurring patterns in news publication, with approximately seven-day cycles of higher and lower publication rates.
+   - Specific hours during the day impacted the visibility of news items, suggesting the importance of timing for social media engagement.
+     
+* The Adjusted R2 Score obtained for all models revolved around 85% to 92% for all the three dependent variables.
+
+* The accuracy obtained by the best model is 91%. From here we can also conclude that the TS columns in the time-span dataset have a higher influence on our dependent variables.
+
