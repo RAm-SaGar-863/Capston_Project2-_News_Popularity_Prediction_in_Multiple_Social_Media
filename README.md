@@ -111,10 +111,6 @@ Tuning of hyperparameters is necessary for modeling to obtain better accuracy an
  - RandomizedSearchCV and 
  - HalvingRandomizedSearchCV.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
- We used plotly to showcase the parameter score of hyperparameters in different algorithms when doing hyperparameter tuning. In the plot below we are showing hyperparameter tuning of CatBoost using HalvingRandomizedSearchCV
-![image](https://user-images.githubusercontent.com/35359451/134615300-a0d2a597-4195-4691-bf04-9eff13a2d58c.png)
-
 ## 9. Metrics Evaluation
 We used some of the metrics valuation techniques like **MSE, RMSE, R2 Score, Adjusted R2, RMLSE**, to obtain the accuracy and error rate of our models before and after hyperparameter tuning.
 
