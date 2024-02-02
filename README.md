@@ -31,20 +31,17 @@
 
 
 # Abstract
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 News popularity on various social media platforms depends on multiple features like the topic, source of publication, time-span and sentiment score. Here we are provided with a dataset that contains news items and their respective social feedback on different platforms: Facebook, GooglePlus and LinkedIn.
 Based on the previous trend, this data analysis and prediction with machine learning models can help us understand what are the reasons for news popularity on social media and obtain the best regression model.
 
 # Problem Statement
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 A large data set of news items and their respective social feedback on multiple platforms: Facebook, Google+ and LinkedIn.The collected data relates to a period of 8 months, between November 2015 and July 2016, accounting for about 100,000 news items on four different topics: Economy, Microsoft, Obama and Palestine.
 
 # Data Description
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 We have 13 dataset which are categorised into 2 types News_Final dataset and Time Span Dataset.
@@ -79,7 +76,6 @@ The 12 datasets are permutation of 4 topics and 3 platforms as stated above. Eac
 |TS144 |(numeric)|Final level of popularity after 2 days (2860-2880) upon publication|
 
 # Project Outline
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 1. Data Wrangling
@@ -123,8 +119,9 @@ We used some of the metrics valuation techniques like **MSE, RMSE, R2 Score, Adj
 ## 10. Feature Importance - SHAP Implementation
 We implemented the SHAP value plot to obtain the importance of independent features in the model prediction to show the positive or negative relationship for each variable with the target.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # Conclusion
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
  - Starting from loading the datasets, we covered data wrangling, EDA, feature selection and modeling.
  - The R2 Score obtained for all models revolved around **85% to 89%** for all the three dependent variables.
  - Further, we carried out hyperparameter tuning and obtained the best score and best parameters for all the models and there was not much improvement in the R2   Score.
