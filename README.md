@@ -97,10 +97,6 @@ Next we obtained correlation between the independent and dependent features to u
 
 ![image](https://user-images.githubusercontent.com/43884418/134711702-d95ada21-a7ed-4314-a340-8c7118edaf23.png)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/43884418/134711764-1b859ea1-95bb-417b-be18-c78d344e7c63.png" />
-</p>
-
 ## 7. Model Fitting
 For modeling we tried the various regression algorithms like:
 * Decision Tree Regression
