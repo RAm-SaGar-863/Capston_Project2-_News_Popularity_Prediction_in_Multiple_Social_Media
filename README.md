@@ -117,9 +117,6 @@ We used some of the metrics valuation techniques like **MSE, RMSE, R2 Score, Adj
 ## 10. Feature Importance - SHAP Implementation
 We implemented the SHAP value plot to obtain the importance of independent features in the model prediction to show the positive or negative relationship for each variable with the target.
 
-| Force Plot  | Summary Plot | Summary Plot (Bar Type) |
-|----|----|----|
-|![image](https://user-images.githubusercontent.com/35359451/134615402-ed7a3c28-c192-47e5-85b8-f356b223477d.png)|![image](https://user-images.githubusercontent.com/35359451/134615469-f41fde4e-f2a6-4f6b-8da2-307cd5379337.png)|![image](https://user-images.githubusercontent.com/35359451/134615492-d517fe35-766e-4099-b3e6-50227061d9ab.png)|
 ---
 # Conclusion
  - Starting from loading the datasets, we covered data wrangling, EDA, feature selection and modeling.
