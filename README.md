@@ -7,7 +7,6 @@
 
 
 
-Predicting Popularity of various news topics (namely Obama, Microsoft, Economy and Palestine) on different social media platform (Facebook, LinkedIn and GooglePlus).
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
