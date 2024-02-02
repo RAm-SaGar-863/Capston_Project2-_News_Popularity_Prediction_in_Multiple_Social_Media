@@ -78,9 +78,6 @@ After loading our datasets, we observed that in the news df, the source column c
 
 ## 2. Standardization
 We observed that the values of our dependent variables were quite large compared to the values in the independent variables. So to standardize the data we applied StandardScaler for data transformation.
-| Data Before Standardization  | Data After Standardization |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![image](https://user-images.githubusercontent.com/43884418/134707732-b0121b71-803c-4e91-be55-e89da3407267.png)|![image](https://user-images.githubusercontent.com/43884418/134707850-c0854391-76c6-48ae-8bf2-51b96ba5ae09.png) |
 
 ## 3. EDA
 In Exploratory Data Analysis, we categorized the sentimentTitle and sentimentHeadline into positive, neutral and negative sentiment categorical values. Then we observed that the number of sources publishing news items was quite large so to obtain a proper analysis we categorized the sources into 4 types, by grouping them on the number of news items published by each source. Further, we compared the popularity level of news items on the three social media platforms, observed the trend of popularity level based on sources and topics. We also observed the change in popularity level within the two days of publishing by using the time-span dataset.
