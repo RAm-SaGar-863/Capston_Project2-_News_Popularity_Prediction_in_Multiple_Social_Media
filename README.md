@@ -80,44 +80,54 @@ The 12 datasets are permutation of 4 topics and 3 platforms as stated above. Eac
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 1. Data Wrangling
+---
 After loading our datasets, we observed that in the news df, the source column contained 279 null values, so we replaced the null values with the source that has published the maximum number of news items. Further, we dropped the news items for which the published date was before Nov 2015 as this is trash data. We also performed the data cleaning by dropping duplicate rows and news items with null values in headlines. We treated the outliers in the dataset by using the 90th percentile method.
 
 ## 2. Standardization
+---
 We observed that the values of our dependent variables were quite large compared to the values in the independent variables. So to standardize the data we applied StandardScaler for data transformation.
 
 ## 3. EDA
+---
 In Exploratory Data Analysis, we categorized the sentimentTitle and sentimentHeadline into positive, neutral and negative sentiment categorical values. Then we observed that the number of sources publishing news items was quite large so to obtain a proper analysis we categorized the sources into 4 types, by grouping them on the number of news items published by each source. Further, we compared the popularity level of news items on the three social media platforms, observed the trend of popularity level based on sources and topics. We also observed the change in popularity level within the two days of publishing by using the time-span dataset.
 
 ## 4. Text Pre-processing
+---
 For handling the textual data in the news title and headline we used TF-IDF Vectorizer and CountVectorizer.
 
 ## 5. Encoding categorical values
+---
 We used one-hot encoding for converting the categorical columns such as source types, topics, sentiment category into numerical values so that our model can understand and extract valuable information from these columns.
 
 ## 6. Feature Selection
+---
 For feature selection, we used algorithms like ExtraTreeRegressor, which provides ordering features on the basis of their gini importance and helps in obtaining features  which are more important compared to others for our model.
 Next we obtained correlation between the independent and dependent features to understand their relation.
 
 ![image](https://user-images.githubusercontent.com/43884418/134711702-d95ada21-a7ed-4314-a340-8c7118edaf23.png)
 
 ## 7. Model Fitting
+---
 For modeling we tried the various regression algorithms like:
 * Decision Tree Regression
-* CatBoost
 * LightGBM
+* XGBoost
 * GradientBoosting 
 * KNN
 
 ## 8. Hyper parameter Tuning
+---
 Tuning of hyperparameters is necessary for modeling to obtain better accuracy and to avoid overfitting. In our project, we used the
  - GridSearchCV, 
  - RandomizedSearchCV and 
  - HalvingRandomizedSearchCV.
 
 ## 9. Metrics Evaluation
+---
 We used some of the metrics valuation techniques like **MSE, RMSE, R2 Score, Adjusted R2, RMLSE**, to obtain the accuracy and error rate of our models before and after hyperparameter tuning.
 
 ## 10. Feature Importance - SHAP Implementation
+---
 We implemented the SHAP value plot to obtain the importance of independent features in the model prediction to show the positive or negative relationship for each variable with the target.
 
 # Conclusion
