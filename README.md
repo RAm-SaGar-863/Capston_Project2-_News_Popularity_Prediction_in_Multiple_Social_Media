@@ -28,15 +28,17 @@
   * [Conclusion](#run)
   * [Reference](#reference)
 
----
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 # Abstract
 News popularity on various social media platforms depends on multiple features like the topic, source of publication, time-span and sentiment score. Here we are provided with a dataset that contains news items and their respective social feedback on different platforms: Facebook, GooglePlus and LinkedIn.
 Based on the previous trend, this data analysis and prediction with machine learning models can help us understand what are the reasons for news popularity on social media and obtain the best regression model.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # Problem Statement
 A large data set of news items and their respective social feedback on multiple platforms: Facebook, Google+ and LinkedIn.The collected data relates to a period of 8 months, between November 2015 and July 2016, accounting for about 100,000 news items on four different topics: Economy, Microsoft, Obama and Palestine.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # Data Description
 We have 13 dataset which are categorised into 2 types News_Final dataset and Time Span Dataset.
@@ -70,8 +72,9 @@ The 12 datasets are permutation of 4 topics and 3 platforms as stated above. Eac
 |...|...|...|
 |TS144 |(numeric)|Final level of popularity after 2 days (2860-2880) upon publication|
 
----
 # Project Outline
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 1. Data Wrangling
 After loading our datasets, we observed that in the news df, the source column contained 279 null values, so we replaced the null values with the source that has published the maximum number of news items. Further, we dropped the news items for which the published date was before Nov 2015 as this is trash data. We also performed the data cleaning by dropping duplicate rows and news items with null values in headlines. We treated the outliers in the dataset by using the 90th percentile method.
@@ -114,7 +117,7 @@ We used some of the metrics valuation techniques like **MSE, RMSE, R2 Score, Adj
 ## 10. Feature Importance - SHAP Implementation
 We implemented the SHAP value plot to obtain the importance of independent features in the model prediction to show the positive or negative relationship for each variable with the target.
 
----
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # Conclusion
  - Starting from loading the datasets, we covered data wrangling, EDA, feature selection and modeling.
  - The R2 Score obtained for all models revolved around **85% to 89%** for all the three dependent variables.
