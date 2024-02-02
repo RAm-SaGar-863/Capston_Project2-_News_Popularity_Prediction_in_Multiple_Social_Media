@@ -117,19 +117,15 @@ We implemented the SHAP value plot to obtain the importance of independent featu
 ---
 # Conclusion
  - Starting from loading the datasets, we covered data wrangling, EDA, feature selection and modeling.
- - The R2 Score obtained for all models revolved around **85% to 92%** for all the three dependent variables.
+ - The R2 Score obtained for all models revolved around **85% to 89%** for all the three dependent variables.
  - Further, we carried out hyperparameter tuning and obtained the best score and best parameters for all the models and there was not much improvement in the R2   Score.
- - So the accuracy obtained by the best model is **92%**. From here we can also conclude that the TS columns in the time-span dataset have a higher influence on our dependent variables.
+ - So the accuracy obtained by the best model is **89%**. From here we can also conclude that the TS columns in the time-span dataset have a higher influence on our dependent variables.
 
  - **Content Optimization:** News organizations can leverage this Project to tailor their content creation strategies. By understanding the prevailing sentiment preferences and popular topics on each social media platform, they can optimize headlines and titles to resonate with the audience, thereby increasing the likelihood of user engagement.
  -  **Virality Prediction:** News organizations can predict the virality of news items by analyzing the source types and content attributes that lead to increased popularity. This knowledge enables content creators to prioritize and focus on creating content that has a higher likelihood of becoming viral, thereby reaching a wider audience.
  -  **Refining Ad Targeting Strategies:** Understanding the sentiments and preferences of users on GooglePlus provides valuable information for refining ad targeting strategies. Companies can use these insights to optimize the placement of advertisements based on the emotional context and preferences of the platform's users.
  -  **Optimized Timing Strategies:** The analysis of publication timing and visibility can guide content creators in determining the optimal times to publish news items on different social media platforms. By aligning publication times with platform-specific trends and audience activity patterns, organizations can enhance the visibility and reach of their content.
- -  **Optimizing Content Creators' Strategies:** Share insights from this project with news content creators to improve content listings, marketing, and overall approach. This collaboration boosts the success of news content creators on the platform, benefiting both creators and social media companies.
- - **Algorithmic Improvements for Search:** The project's machine learning models, especially those showing feature importance, can guide improvements in News Organizations search algorithms. By understanding the factors that contribute significantly to the popularity of news articles, News Orgnizations can refine its algorithms to deliver more relevant and engaging content in search results.
- - **Social Media Platform Development:**  If Social Media companies continues to invest in or develop social media platforms, the insights from this project can guide the design and features of these platforms. Understanding what drives engagement and popularity on other social media platforms can inform the development of features for their own social platforms.
- - **Optimizing Content Creators' Strategies:** Share insights from this project with news content creators to improve content listings, marketing, and overall approach. This collaboration boosts the success of news content creators on the platform, benefiting both creators and social media companies.
- 
+
 
 
 
