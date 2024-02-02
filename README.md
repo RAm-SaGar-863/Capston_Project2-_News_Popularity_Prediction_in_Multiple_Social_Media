@@ -111,11 +111,6 @@ Tuning of hyperparameters is necessary for modeling to obtain better accuracy an
  - RandomizedSearchCV and 
  - HalvingRandomizedSearchCV.
 
- Performance of different hyperparameter tuning techniques on Google Colaboratory
-| GridSearchCV  |  RandomizedSearchCV  | HalvingRandomizedSearchCV |
-|----|----|----|
-|![image](https://user-images.githubusercontent.com/35359451/134711878-350e3e1a-8e63-4436-89d6-e203a42723c5.png)|![image](https://user-images.githubusercontent.com/35359451/134711905-559bf15c-5a6b-41c6-a7d8-4f9ef7951aab.png)|![image](https://user-images.githubusercontent.com/35359451/134711961-2b362b0d-9d64-40ec-990e-31f3eafb5ba6.png)|
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
  We used plotly to showcase the parameter score of hyperparameters in different algorithms when doing hyperparameter tuning. In the plot below we are showing hyperparameter tuning of CatBoost using HalvingRandomizedSearchCV
 ![image](https://user-images.githubusercontent.com/35359451/134615300-a0d2a597-4195-4691-bf04-9eff13a2d58c.png)
